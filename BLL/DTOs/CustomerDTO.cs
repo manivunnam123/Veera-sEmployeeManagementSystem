@@ -12,9 +12,9 @@ namespace BLL.DTOs
     {
         public int Id { get; set; }
         [Required]
-        [StringLength(70)]
+        [StringLength(80)]
         public string Name { get; set; }
-        [StringLength(150)]
+        [StringLength(160)]
         public string Address { get; set; }
         [StringLength(11)]
         public string PhoneNo { get; set; }

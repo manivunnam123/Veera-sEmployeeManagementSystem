@@ -78,9 +78,9 @@
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IBaseRepo.cs" />
     <Compile Include="Interfaces\IReport.cs" />
-    <Compile Include="Migrations\202305160625331_Dbinit.cs" />
-    <Compile Include="Migrations\202305160625331_Dbinit.designer.cs">
-      <DependentUpon>202305160625331_Dbinit.cs</DependentUpon>
+    <Compile Include="Migrations\202603021520052_mani.cs" />
+    <Compile Include="Migrations\202603021520052_mani.Designer.cs">
+      <DependentUpon>202603021520052_mani.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MMContext.cs" />
@@ -116,8 +116,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202305160625331_Dbinit.resx">
-      <DependentUpon>202305160625331_Dbinit.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202603021520052_mani.resx">
+      <DependentUpon>202603021520052_mani.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
