@@ -52,7 +52,9 @@ namespace MuMerchAPI.Controllers
             }
             catch (Exception ex)
             {
+               // Log.Error("Error in adding customer", ex);
                 return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex);
+
             }
         }
         [HttpPost]
