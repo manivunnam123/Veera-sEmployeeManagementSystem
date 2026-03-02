@@ -4,6 +4,8 @@
     {
         public int ProductID { get; set; }
         public string ProductNameS { get; set; }
+
+        public int SalesId { get; set; }
         public int Sales { get; set; }
 
     }
